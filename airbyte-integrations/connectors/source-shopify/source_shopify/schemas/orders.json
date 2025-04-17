@@ -496,6 +496,10 @@
       "description": "URL of the shop associated with the order",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "subtotal_price": {
       "description": "The subtotal price of the order",
       "type": ["null", "number"]

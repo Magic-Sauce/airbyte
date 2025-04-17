@@ -53,6 +53,10 @@
       "description": "The URL of the shop associated with the page.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "deleted_at": {
       "description": "The timestamp when the page was deleted.",
       "type": ["null", "string"],

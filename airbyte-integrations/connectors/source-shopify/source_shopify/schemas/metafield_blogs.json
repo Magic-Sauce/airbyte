@@ -53,6 +53,10 @@
     "type": {
       "description": "The type of data stored in the metafield",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   },
   "additionalProperties": true,

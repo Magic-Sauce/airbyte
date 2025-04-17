@@ -73,6 +73,10 @@
       "description": "The URL of the shop where the custom collection belongs.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "deleted_at": {
       "description": "The date and time when the custom collection was deleted.",
       "type": ["null", "string"],

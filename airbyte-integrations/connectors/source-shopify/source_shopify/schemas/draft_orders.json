@@ -697,6 +697,10 @@
     "shop_url": {
       "description": "URL of the shop related to the draft order",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }

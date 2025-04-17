@@ -62,6 +62,10 @@
     "shop_url": {
       "description": "The URL of the shop related to the transaction.",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }

@@ -53,6 +53,10 @@
     "type": {
       "description": "The type of the metafield collection",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   },
   "additionalProperties": true,

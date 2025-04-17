@@ -54,6 +54,10 @@
     "shop_url": {
       "description": "URL of the shop where the image is hosted",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }

@@ -24,6 +24,10 @@
       "description": "URL of the shop where the order was placed.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "agreements": {
       "description": "A list of sales agreements associated with the order.",
       "type": ["null", "array"],

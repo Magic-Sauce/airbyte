@@ -53,6 +53,10 @@
       "description": "The URL of the shop associated with the blog.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "deleted_at": {
       "description": "The date and time when the blog was deleted, if applicable.",
       "type": ["null", "string"],

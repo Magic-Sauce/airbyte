@@ -242,6 +242,10 @@
     "shop_url": {
       "description": "The URL of the shop",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }

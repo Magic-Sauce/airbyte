@@ -217,6 +217,10 @@
       "description": "The URL of the shop where the variant is listed",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "available_for_sale": {
       "description": "Whether the product variant is available for sale.",
       "type": ["null", "boolean"]

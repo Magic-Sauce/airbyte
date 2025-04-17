@@ -198,6 +198,10 @@
       "description": "The URL of the shop where the price rule is applied",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "deleted_at": {
       "description": "The date and time when the price rule was deleted",
       "type": ["null", "string"],

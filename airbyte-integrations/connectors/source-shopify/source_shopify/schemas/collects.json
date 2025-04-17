@@ -31,6 +31,10 @@
       "description": "The URL of the shop associated with the collect.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "updated_at": {
       "description": "The date and time when the collect was last updated.",
       "type": ["null", "string"],

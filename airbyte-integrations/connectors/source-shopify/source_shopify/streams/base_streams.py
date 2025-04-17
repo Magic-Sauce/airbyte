@@ -102,12 +102,16 @@ class ShopifyStream(HttpStream, ABC):
             # for cases when we have a single record as dict
             # add shop_url to the record to make querying easy
             records["shop_url"] = self.config["shop"]
+            # Add norby tenant slug to every record
+            records['slug'] = self.config["slug"]
             yield self._transformer.transform(records)
         else:
             # for other cases
             for record in records:
                 # add shop_url to the record to make querying easy
                 record["shop_url"] = self.config["shop"]
+                # Add norby tenant slug to every record
+                record['slug'] = self.config["slug"]
                 yield self._transformer.transform(record)
 
     def get_error_handler(self) -> Optional[ErrorHandler]:

@@ -53,6 +53,10 @@
     "shop_url": {
       "description": "The URL of the shop to which the metafield draft order belongs.",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   },
   "additionalProperties": true,

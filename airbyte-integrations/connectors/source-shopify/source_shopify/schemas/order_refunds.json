@@ -674,6 +674,10 @@
       "description": "URL of the shop where the refund was processed",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "total_duties_set": {
       "description": "Details of the total duties amount",
       "type": ["null", "object"],

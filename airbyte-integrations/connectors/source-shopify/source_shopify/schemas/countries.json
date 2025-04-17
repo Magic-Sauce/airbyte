@@ -54,6 +54,10 @@
     "shop_url": {
       "description": "URL for the shop related to this country.",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }

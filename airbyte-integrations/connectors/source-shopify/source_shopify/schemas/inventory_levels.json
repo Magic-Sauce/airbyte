@@ -59,6 +59,10 @@
       "description": "The URL of the shop where the inventory belongs.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "quantities": {
       "description": "The quantities of items available for sale in the inventory.",
       "type": ["null", "array"],

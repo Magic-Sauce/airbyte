@@ -74,6 +74,10 @@
       "description": "The URL of the shop associated with the customer's address.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "updated_at": {
       "description": "The date and time when the address was last updated.",
       "type": ["null", "string"],

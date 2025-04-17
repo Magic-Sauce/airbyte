@@ -114,6 +114,10 @@
     "shop_url": {
       "description": "The URL of the shop where the discount code is applicable",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }

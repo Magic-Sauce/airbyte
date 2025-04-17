@@ -22,6 +22,10 @@
       "description": "URL of the customer's associated shop.",
       "type": ["null", "string"]
     },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
+    },
     "default_address": {
       "description": "Customer's default address",
       "type": ["null", "object"],

@@ -55,6 +55,10 @@
     "shop_url": {
       "description": "The URL of the shop where the collection belongs.",
       "type": ["null", "string"]
+    },
+    "slug": {
+      "description": "Tenant slug",
+      "type": ["null", "string"]
     }
   }
 }
